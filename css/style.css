@@ -1,0 +1,13 @@
+li{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.header-cnt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
