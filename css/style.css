@@ -40,6 +40,9 @@ header a{
     align-items: center;
     height: 50px;
 }
+.hire-me a{
+    line-height: 1px;
+}
 .hire-me i{
     background-color:#EFEFEF ;
     padding: 5px 6px;
@@ -50,6 +53,5 @@ header a{
     display: flex;
     align-items: center;
     justify-content: center;
-
-    
+    color: #4C6380;  
 }
