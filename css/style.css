@@ -55,3 +55,51 @@ header a{
     justify-content: center;
     color: #4C6380;  
 }
+
+
+
+/* *****hero********* */
+
+
+#id{
+    height: 100vh;
+}
+.hero-cnt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.my-name{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.my-name p{
+    margin: 0;
+}
+.my-name h2{
+    margin: 0;
+}
+.work-skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.social-media i{
+    border: black solid 1.5px;
+    border-radius: 100%;
+    font-size: larger;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
