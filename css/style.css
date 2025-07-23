@@ -91,7 +91,6 @@ header ul {
     justify-content: center;
     gap: 30px;
     height: 100%;
-    margin-top: 20px;
 }
 
 .my-name {
@@ -151,12 +150,15 @@ header ul {
     align-items: center;
     justify-content: center;
     gap: 40px;
-    background: #9f9a9a;
+    background: #EFEFEF;
     max-width: 750px;
     margin: auto;
     padding: 30px;
     border-radius: 60px;
-
+    border: solid rgb(45, 41, 41) 1px;
+    position:absolute;
+    top: 550px;
+    left: 250px;
 }
 .servise-cnt{
     display: flex;
@@ -170,4 +172,47 @@ header ul {
     border-left: solid 1.5px rgba(0, 0, 0, 0.15);
     border-right:solid 1.5px rgba(0, 0, 0, 0.15);
     padding: 0 30px;
+}
+
+/* *******service****** */
+
+
+#about{
+    background-color: #E7E7E7;
+}
+.about-cnt{
+    display: flex;
+    justify-content:space-around;
+    padding: 150px 0;
+}
+.about-me-1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.round{
+    border: solid #4C6380 7px;
+    border-radius: 100%;
+    padding: 60px;
+}
+.about-me-2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.about-me-2 p{
+    max-width: 700px;
+}
+.cv{
+    background: #4C6380;
+    max-width: max-content;
+    padding: 10px 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 40px;
+    color: #EFEFEF;
+}
+.cv a{
+    color: #EFEFEF;
 }
