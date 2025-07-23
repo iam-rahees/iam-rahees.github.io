@@ -1,50 +1,65 @@
-ul{
+body {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+ul {
     list-style: none !important;
     padding: 0;
     margin: 0;
 }
-a{
+
+a {
     text-decoration: none !important;
     display: inline-block;
 }
 
 /*  */
 
-header a{
-    color:#EFEFEF!important;
+header{
+    position: fixed;
+    width: 100%;
 }
- header ul{
+header a {
+    color: #EFEFEF !important;
+}
+
+header ul {
     display: flex;
     gap: 50px;
     align-items: center;
     background: black;
-    padding:10px 20px;
+    padding: 10px 20px;
     border-radius: 60px;
     height: 50px;
 }
-.header-cnt{
+
+.header-cnt {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
 }
-.header-cnt a i{
+
+.header-cnt a i {
     color: rgb(250, 250, 250);
 }
-.hire-me{
+
+.hire-me {
     background: #4C6380;
-    padding:15px;
+    padding: 15px;
     border-radius: 30px;
     display: flex;
     gap: 10px;
     align-items: center;
     height: 50px;
 }
-.hire-me a{
+
+.hire-me a {
     line-height: 1px;
 }
-.hire-me i{
-    background-color:#EFEFEF ;
+
+.hire-me i {
+    background-color: #EFEFEF;
     padding: 5px 6px;
     border-radius: 100%;
     font-size: smaller;
@@ -53,46 +68,69 @@ header a{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #4C6380;  
+    color: #4C6380;
 }
 
 
 
-/* *****hero********* */
+/* *****header********* */
 
 
-#id{
+#hero {
     height: 100vh;
+    background-image:url('../img/hero-bg-img.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.hero-cnt{
+
+.hero-cnt {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
+    height: 100%;
+    margin-top: 20px;
 }
-.my-name{
+
+.my-name {
     display: flex;
     align-items: center;
     gap: 2px;
 }
-.my-name p{
+
+.my-name p {
     margin: 0;
+    font-size: 20px;
+    font-weight: 500;
 }
-.my-name h2{
+
+.my-name h2 {
     margin: 0;
+    font-size: 40px;
 }
-.work-skill{
+
+.work-skill {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+
 }
-.social-media{
+
+.work-skill h1 {
+    font-size: 5rem;
+    color: #4C6380;
+}
+
+.social-media {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
-.social-media i{
+
+.social-media i {
     border: black solid 1.5px;
     border-radius: 100%;
     font-size: larger;
@@ -102,4 +140,34 @@ header a{
     align-items: center;
     justify-content: center;
     color: black;
+}
+
+
+/* *****hero******* */
+
+
+.servise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background: #9f9a9a;
+    max-width: 750px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 60px;
+
+}
+.servise-cnt{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.servise-cnt p{
+    margin: 0;
+}
+.servise-cnt.center{
+    border-left: solid 1.5px rgba(0, 0, 0, 0.15);
+    border-right:solid 1.5px rgba(0, 0, 0, 0.15);
+    padding: 0 30px;
 }
