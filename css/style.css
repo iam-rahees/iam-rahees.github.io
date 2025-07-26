@@ -340,3 +340,22 @@ header ul {
 .portfolio-cnt h2{
     text-align: center;
 }
+.portfolio-card{
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.portfolio-card-cnt{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.portfolio-card-name h4{
+    margin: 0;
+}
+.portfolio-card-name p{
+    margin: 0;
+}
