@@ -339,23 +339,37 @@ header ul {
 }
 .portfolio-cnt h2{
     text-align: center;
+    margin-bottom: 50px;
 }
 .portfolio-card{
     background: white;
-    border-radius: 10px;
+    border-radius: 23px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
+    padding: 14px;
+    
 }
 .portfolio-card-cnt{
     display: flex;
     gap: 40px;
     align-items: center;
+    margin-bottom: 20px;
 }
 .portfolio-card-name h4{
     margin: 0;
 }
 .portfolio-card-name p{
     margin: 0;
+}
+.portfolio-card-cnt i{
+    background: #4C6380;
+    color: #E7E7E7;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
 }
