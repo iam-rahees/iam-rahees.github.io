@@ -83,6 +83,8 @@ header ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    border-bottom: solid 1px #9d9d9d;
 }
 
 .hero-cnt {
@@ -92,7 +94,6 @@ header ul {
     justify-content: center;
     gap: 10px;
     height: 100%;
-    position: relative;
 }
 
 .my-name {
@@ -158,9 +159,9 @@ header ul {
     margin: auto;
     padding: 30px;
     border-radius: 60px;
-    border: solid rgb(45, 41, 41) 1px;
+    border: solid #9d9d9d 1px;
     position: absolute;
-    top: 409px;
+    bottom: -50px;
 }
 .servise-cnt{
     display: flex;
@@ -221,7 +222,7 @@ header ul {
 .cv{
     background: #4C6380;
     max-width: max-content;
-    padding: 10px 20px;
+    padding: 10px 15px;
     display: flex;
     gap: 10px;
     align-items: center;
@@ -335,7 +336,7 @@ header ul {
     background-color: #EFEFEF;
 }
 .portfolio-cnt{
-    padding: 50px;
+    padding: 50px 0 80px;
 }
 .portfolio-cnt h2{
     text-align: center;
@@ -372,4 +373,93 @@ header ul {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
+}
+
+/* ************portfolio********* */
+
+#contact{
+    background-color:#E7E7E7;
+}
+.contact-cnt{
+   padding: 60px;
+
+}
+.my-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.contact{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.contact i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4C6380;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.i-cnt p{
+    margin: 0;
+}
+.i-cnt h5{
+    margin: 0;
+    color: black;
+}
+.leave-msg h3{
+    margin-bottom: 30px;
+}
+input.input {
+    width: 100%;
+    border: none;
+    border-bottom: solid 1.5px #00000096;
+    margin-bottom: 50px;
+    outline: none;
+    background: none;
+}
+.leave-msg a{
+    background-color:#4C6380;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 100px;
+}
+
+
+/* ********contact******* */
+
+
+footer{
+    background-color:#EFEFEF;
+}
+.footer-cnt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 0 15px;
+}
+.footer-cnt img{
+    width: 50px;
+}
+.footer-cnt nav a{
+    color: black;
+    margin-left: 40px;
+}
+.footer-social a{
+    color: black;
+    margin-left: 20px;
+    font-size: larger;
+}
+.copy-right{
+    margin: 0;
+}
+.footer-2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
 }
