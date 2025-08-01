@@ -19,6 +19,7 @@ header{
     position: fixed;
     width: 100%;
     z-index: 1000;
+    transition: 0.3s ease-in-out;
 }
 header a {
     color: #EFEFEF !important;
@@ -38,6 +39,7 @@ header ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: 0.3s ease-in-out;
     padding: 20px 0;
 }
 
@@ -71,8 +73,14 @@ header ul {
     justify-content: center;
     color: #4C6380;
 }
-
-
+/* **jquery** */
+.header-bg{
+    background-color: #e7e7e7;
+   box-shadow: #00000034 0px -1px 16px -3px;
+}
+.header-bg .header-cnt{
+    padding: 15px 0;
+}
 
 /* *****header********* */
 
@@ -268,7 +276,9 @@ header ul {
     margin: 80px 0;
     border: #4c638038 solid 1px;
     border-radius: 10px;
-    padding: 80px 0;
+    padding: 80px 3px;
+    height: 300px;
+    text-align: center;
 }
 .education-card img{
     width: 40px;
