@@ -78,6 +78,16 @@
         display: none;
     }
 
+    .toggle-bt {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        z-index: 100;
+    }
+    .hire-me{
+        display: none;
+    }
+
     .work-skill h1 {
         font-size: 2.6rem;
     }
