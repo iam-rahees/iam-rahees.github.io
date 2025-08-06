@@ -5,6 +5,10 @@
     .work-skill h1 {
         font-size: 4rem;
     }
+
+    .portfolio-card-cnt {
+        gap: 40px;
+    }
 }
 
 @media screen and (max-width:1023px) {}
@@ -78,13 +82,28 @@
         display: none;
     }
 
+    .portfolio-card-cnt {
+        gap: 45px;
+    }
+   
+    .skills-card.right-border::before{
+        display: none;
+    }
+
+    .skills-card.bottom-border::after{
+        display: none;
+    }
+    .leave-msg{
+        margin-top: 60px;
+    }
     .toggle-bt {
         display: flex;
         flex-direction: column;
         gap: 3px;
         z-index: 100;
     }
-    .hire-me{
+
+    .hire-me {
         display: none;
     }
 
