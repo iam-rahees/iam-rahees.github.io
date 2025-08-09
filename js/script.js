@@ -11,6 +11,7 @@ $(window).scroll(function(){
 $(document).ready(function(){
     $('.toggle-bt').click(function(){
     $('.toggle-bt').toggleClass('clicked');
-
+    $('header nav ul').toggleClass('clicked');
+    
     });
 })

@@ -79,8 +79,33 @@
 @media screen and (max-width:768px) {
 
     .header-cnt nav ul {
-        display: none;
+        /* display: none; */
     }
+    header nav ul a:hover{
+        background-color: rgba(0, 0, 0, 0.176);
+        padding: 15px 70px;
+        border-radius: 10px;
+        transition: 0.4s;
+    }
+    header nav ul{
+        display: flex;
+        height: 75vh;
+        width: 50vh;
+        position: fixed;
+        top: 50px;
+        right: 100px;
+        background-color: #4C6380;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+        transition: 0.5s;
+        opacity: 0;
+    }
+     header nav ul.clicked{
+        opacity: 1;
+        transform: translateX(10px);
+     }
 
     .portfolio-card-cnt {
         gap: 45px;
