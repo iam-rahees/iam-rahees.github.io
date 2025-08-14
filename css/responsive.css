@@ -1,4 +1,18 @@
-@media screen and (max-width:1299px) {}
+@media screen and (max-width:1599px) {
+    .portfolio-card-cnt {
+        gap: 110px;
+    }
+}
+
+@media screen and (max-width:13399px) {
+    .portfolio-card-cnt {
+        gap: 70px;
+    }
+
+    .portfolio-card-cnt {
+        margin-bottom: 10px;
+    }
+}
 
 @media screen and (max-width:1200px) {
 
@@ -81,13 +95,15 @@
     .header-cnt nav ul {
         /* display: none; */
     }
-    header nav ul a:hover{
+
+    header nav ul a:hover {
         background-color: rgba(0, 0, 0, 0.176);
         padding: 15px 70px;
         border-radius: 10px;
         transition: 0.4s;
     }
-    header nav ul{
+
+    header nav ul {
         display: flex;
         height: 75vh;
         width: 50vh;
@@ -102,25 +118,28 @@
         transition: 0.5s;
         opacity: 0;
     }
-     header nav ul.clicked{
+
+    header nav ul.clicked {
         opacity: 1;
         transform: translateX(10px);
-     }
+    }
 
     .portfolio-card-cnt {
         gap: 45px;
     }
-   
-    .skills-card.right-border::before{
+
+    .skills-card.right-border::before {
         display: none;
     }
 
-    .skills-card.bottom-border::after{
+    .skills-card.bottom-border::after {
         display: none;
     }
-    .leave-msg{
+
+    .leave-msg {
         margin-top: 60px;
     }
+
     .toggle-bt {
         display: flex;
         flex-direction: column;
@@ -173,10 +192,15 @@
     element.style {
         margin-top: 90px;
     }
+    .portfolio-card-cnt {
+    /* gap: 110px; */
+}
 
 }
 
-@media screen and (max-width:575px) {}
+@media screen and (max-width:575px) {
+    
+}
 
 @media screen and (max-width:425px) {}
 
