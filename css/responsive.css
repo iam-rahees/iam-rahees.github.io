@@ -106,7 +106,7 @@
     header nav ul {
         display: flex;
         height: 100vh;
-        width: 50vh;
+        width: 60vh;
         position: fixed;
         top: 0px;
         right: 0px;
@@ -192,16 +192,148 @@
     element.style {
         margin-top: 90px;
     }
+
     .portfolio-card-cnt {
-    /* gap: 110px; */
-}
+        /* gap: 110px; */
+
+    }
+
+    .servise-cnt {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .servise {
+        bottom: -65px;
+    }
+
+    .servise-cnt.center {
+        border-right: solid 0px rgba(0, 0, 0, 0.15);
+        border-left: solid 0px rgba(0, 0, 0, 0.15);
+
+    }
+
+    .submit {
+        display: flex;
+        justify-content: end;
+    }
+
+
 
 }
 
 @media screen and (max-width:575px) {
-    
+    .my-name h2 {
+        font-size: 30px;
+    }
+
+    /* .portfolio-card-name h4 {
+        font-size: 13px;
+    }
+
+    .portfolio-card-name p {
+        font-size: 10px;
+    }
+
+    .portfolio-card {
+        padding: 10px;
+        gap: 12px;
+    }
+
+    .portfolio-card-cnt {
+        gap: 50px;
+    }
+    .portfolio-card-cnt i {
+    height: 30px;
+    width: 30px;
+    border-radius: 6px;
+    font-size: smaller;
+} */
+    .portfolio-card-cnt i {
+        height: 30px;
+        width: 30px;
+        border-radius: 6px;
+        font-size: smaller;
+    }
+
+    .portfolio-card {
+        padding: 12px;
+    }
+
+
 }
 
-@media screen and (max-width:425px) {}
+@media screen and (max-width:530px) {
+    .portfolio-card-cnt {
+        gap: 30px;
+    }
+}
 
-@media screen and (max-width:375px) {}
+@media screen and (max-width:500px) {
+    .portfolio-card-cnt {
+        gap: 20px;
+    }
+
+    .portfolio-card {
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .portfolio-card-cnt {
+        gap: 25px;
+    }
+
+    .portfolio-card-name h4 {
+        font-size: 15px;
+    }
+
+    .portfolio-card-name p {
+        font-size: 10px;
+    }
+
+    .portfolio-card {
+        padding: 8px;
+    }
+
+
+}
+
+
+@media screen and (max-width:455px) {
+    .portfolio-card-name h4 {
+        font-size: 13px;
+    }
+
+    .portfolio-card-name p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .portfolio-card {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .portfolio-card-name h4 {
+        font-size: 12px;
+    }
+
+    .portfolio-card-name p {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .portfolio-card-name h4 {
+        font-size: 11px;
+    }
+
+    .portfolio-card-name p {
+        font-size: 8px;
+    }
+}
