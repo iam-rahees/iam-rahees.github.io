@@ -400,7 +400,7 @@ header ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
     padding: 14px;
 
 }
@@ -415,6 +415,12 @@ header ul {
     gap: 70px;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.portfolio-card-name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .portfolio-card-name h4 {

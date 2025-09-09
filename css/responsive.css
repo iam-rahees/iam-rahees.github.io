@@ -229,39 +229,29 @@
         font-size: 30px;
     }
 
-    /* .portfolio-card-name h4 {
-        font-size: 13px;
-    }
-
-    .portfolio-card-name p {
-        font-size: 10px;
-    }
-
     .portfolio-card {
-        padding: 10px;
-        gap: 12px;
+        margin: 0 50px;
+        padding: 15px;
+    }
+
+    .portfolio-card-cnt i {
+        height: 45px;
+        width: 45px;
+        border-radius: 8px;
+        font-size: 22px;
     }
 
     .portfolio-card-cnt {
-        gap: 50px;
-    }
-    .portfolio-card-cnt i {
-    height: 30px;
-    width: 30px;
-    border-radius: 6px;
-    font-size: smaller;
-} */
-    .portfolio-card-cnt i {
-        height: 30px;
-        width: 30px;
-        border-radius: 6px;
-        font-size: smaller;
+        gap: 150px;
     }
 
-    .portfolio-card {
-        padding: 12px;
+    .portfolio-card-name h4 {
+        font-size: 24px;
     }
 
+    .portfolio-card-name p {
+        font-size: 15px;
+    }
 
 }
 
