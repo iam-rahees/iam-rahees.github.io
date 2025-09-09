@@ -137,7 +137,7 @@
     }
 
     .leave-msg {
-        margin-top: 60px;
+        margin-top: 90px;
     }
 
     .toggle-bt {
@@ -242,7 +242,7 @@
     }
 
     .portfolio-card-cnt {
-        gap: 150px;
+        gap: 120px;
     }
 
     .portfolio-card-name h4 {
@@ -255,51 +255,101 @@
 
 }
 
-@media screen and (max-width:530px) {
+@media screen and (max-width:537px) {
     .portfolio-card-cnt {
-        gap: 30px;
+        gap: 90px;
+    }
+
+    .work-skill h1 {
+        font-size: 2.4rem;
+    }
+
+    .education-card {
+        margin: 50px;
+        padding: 0;
+    }
+
+    .my-name h2 {
+        font-size: 28px;
+    }
+
+    .my-name p {
+        font-size: 17px;
+    }
+
+    .portfolio-card-name p {
+        font-size: 14px;
+    }
+
+    .portfolio-card-name h4 {
+        font-size: 21px;
     }
 }
 
 @media screen and (max-width:500px) {
-    .portfolio-card-cnt {
-        gap: 20px;
+    .education-card {
+        margin: 36px;
+        padding: 0;
     }
 
-    .portfolio-card {
-        gap: 15px;
+    .portfolio-card-cnt {
+        gap: 75px;
+    }
+
+    .work-skill h1 {
+        font-size: 2.3rem;
+    }
+
+    .portfolio-card-cnt i {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
     }
 }
 
 @media screen and (max-width:480px) {
     .portfolio-card-cnt {
-        gap: 25px;
+        gap: 70px;
     }
 
-    .portfolio-card-name h4 {
-        font-size: 15px;
-    }
-
-    .portfolio-card-name p {
-        font-size: 10px;
+    .work-skill h1 {
+        font-size: 2.1rem;
     }
 
     .portfolio-card {
-        padding: 8px;
+        padding: 12px;
+    }
+
+    .education-card {
+        margin: 32px;
     }
 
 
 }
 
+@media screen and (max-width:465px) {
+    .education-card {
+        margin: 25px;
+    }
+}
 
 @media screen and (max-width:455px) {
-    .portfolio-card-name h4 {
-        font-size: 13px;
+    .portfolio-card-cnt {
+        gap: 65px;
     }
 
-    .portfolio-card-name p {
-        font-size: 10px;
+    .work-skill h1 {
+        font-size: 2.1rem;
     }
+
+    .portfolio-card {
+        padding: 12px;
+    }
+    .education-card {
+        margin: 12px;
+    }
+
+
 }
 
 @media screen and (max-width:425px) {
