@@ -323,7 +323,7 @@
     }
 
     .work-skill h1 {
-        font-size: 2.1rem;
+        font-size: 2.0rem;
     }
 
     .portfolio-card {
@@ -338,11 +338,22 @@
     .portfolio-card {
         padding: 8px;
     }
+    .work-skill h1 {
+        font-size: 1.9rem;
+    }
 }
 
+@media screen and (max-width:400px) {
+    .work-skill h1 {
+        font-size: 1.8rem;
+    }
+}
 @media screen and (max-width:390px) {
     .portfolio-card-name h4 {
         font-size: 12px;
+    }
+    .work-skill h1 {
+        font-size: 1.7rem;
     }
 
     .portfolio-card-name p {
@@ -353,6 +364,9 @@
 @media screen and (max-width:375px) {
     .portfolio-card-name h4 {
         font-size: 11px;
+    }
+    .work-skill h1 {
+        font-size: 1.6rem;
     }
 
     .portfolio-card-name p {
