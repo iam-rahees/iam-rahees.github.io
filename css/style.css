@@ -23,14 +23,16 @@ header {
 }
 
 header a {
-    color: #EFEFEF !important;
+    color: #fefefe !important;
+}
+header ul a {
+    color: #000000 !important;
 }
 
 header ul {
     display: flex;
     gap: 50px;
     align-items: center;
-    background: black;
     padding: 10px 20px;
     border-radius: 60px;
     height: 50px;
@@ -50,8 +52,8 @@ header ul {
 
 .hire-me {
     background: #4C6380;
-    padding: 15px;
-    border-radius: 30px;
+    padding: 10px;
+    border-radius: 3px;
     display: flex;
     gap: 10px;
     align-items: center;
@@ -95,7 +97,7 @@ header ul {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    border-bottom: solid 1px #9d9d9d;
+
 }
 
 .hero-cnt {
@@ -171,10 +173,12 @@ header ul {
     max-width: 750px;
     margin: auto;
     padding: 30px;
-    border-radius: 60px;
-    border: solid #9d9d9d 1px;
+    border-radius: 4px;
     position: absolute;
     bottom: -50px;
+    background-color: #e7e7e7;
+    box-shadow: #0000004a 1px 2px 12px -2px;
+
 }
 
 .servise-cnt {
@@ -250,7 +254,7 @@ header ul {
     display: flex;
     gap: 10px;
     align-items: center;
-    border-radius: 40px;
+    border-radius: 3px;
     color: #EFEFEF;
 }
 
@@ -299,7 +303,7 @@ header ul {
     gap: 3px;
     margin: 80px 0;
     border: #4c638038 solid 1px;
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 80px 3px;
     height: 300px;
     text-align: center;
@@ -396,7 +400,7 @@ header ul {
 
 .portfolio-card {
     background: white;
-    border-radius: 23px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -406,7 +410,7 @@ header ul {
 }
 
 .portfolio-card img {
-    border-radius: 15px;
+    border-radius: 4px;
     transition: 0.3s;
 }
 
@@ -439,12 +443,12 @@ header ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 8px;
+    border-radius: 3px;
     transition: 0.3s;
 }
 
 .img-hover {
-    border-radius: 15px;
+    border-radius: 4px;
     width: 100%;
     overflow: hidden;
 }
@@ -506,10 +510,10 @@ input.input {
 }
 
 .leave-msg a {
-    background-color: #4C6380;
-    color: white;
+    border: solid 1.5px #4C6380;
+    color: #4C6380;
     padding: 12px 15px;
-    border-radius: 100px;
+    border-radius: 3px;
     transition: 0.3s;
 }
 
@@ -587,7 +591,8 @@ footer {
 }
 
 .leave-msg a:hover {
-    box-shadow: #00000061 2px 3px 3px 1px;
+    background-color: #4C6380;
+    color: #E7E7E7;
 }
 
 .footer-social a:hover {
