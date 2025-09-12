@@ -162,7 +162,7 @@
 
     .about-cnt {
         text-align: center;
-        padding-top: 125px;
+        padding-top: 160px;
     }
 
     .round {
@@ -202,27 +202,53 @@
         bottom: -65px;
     }
 
-    .servise-cnt.center {
-        border-right: solid 0px rgba(0, 0, 0, 0.15);
-        border-left: solid 0px rgba(0, 0, 0, 0.15);
-
-    }
 
     .submit {
         display: flex;
         justify-content: end;
     }
-    .education-card{
-        margin: 50px 0;
+
+
+    .servise {
+        width: 100%;
     }
 
+    .servise-cnt p {
+        font-size: 12px;
+        font-weight: 500;
+    }
 
+    .portfolio-card {
+        padding: 10px;
+    }
+
+    .education-card {
+        margin: 50px 0;
+    }
 
 }
 
 @media screen and (max-width:575px) {
     .my-name h2 {
         font-size: 30px;
+    }
+
+    .round {
+        left: 100px;
+    }
+
+    .servise-cnt p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .portfolio-card {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .education-card {
+        margin: 20px;
     }
 
     .portfolio-card {
@@ -237,7 +263,7 @@
     }
 
     .portfolio-card-cnt {
-        gap: 120px;
+        gap: 150px;
     }
 
     .portfolio-card-name h4 {
@@ -251,10 +277,6 @@
 }
 
 @media screen and (max-width:537px) {
-    .portfolio-card-cnt {
-        gap: 90px;
-    }
-
     .work-skill h1 {
         font-size: 2.4rem;
     }
@@ -279,13 +301,6 @@
 
 @media screen and (max-width:500px) {
 
-    .portfolio-card-cnt {
-        gap: 75px;
-    }
-    .education-card{
-        margin: 30px 0;
-    }
-
     .work-skill h1 {
         font-size: 2.3rem;
     }
@@ -295,11 +310,21 @@
         width: 40px;
         font-size: 20px;
     }
+
+    .round {
+        left: 80px;
+    }
+
+
 }
 
 @media screen and (max-width:480px) {
     .portfolio-card-cnt {
-        gap: 70px;
+        gap: 120px;
+    }
+
+    .round {
+        left: 60px;
     }
 
     .work-skill h1 {
@@ -313,13 +338,15 @@
 
 }
 
-@media screen and (max-width:465px) {
-
-}
+@media screen and (max-width:465px) {}
 
 @media screen and (max-width:455px) {
     .portfolio-card-cnt {
-        gap: 65px;
+        gap: 100px;
+    }
+
+    .round {
+        left: 40px;
     }
 
     .work-skill h1 {
@@ -335,9 +362,11 @@
 }
 
 @media screen and (max-width:425px) {
-    .portfolio-card {
-        padding: 8px;
+
+    .portfolio-card-cnt {
+        gap: 90px;
     }
+
     .work-skill h1 {
         font-size: 1.9rem;
     }
@@ -348,28 +377,54 @@
         font-size: 1.8rem;
     }
 }
+
 @media screen and (max-width:390px) {
-    .portfolio-card-name h4 {
-        font-size: 12px;
-    }
+
     .work-skill h1 {
         font-size: 1.7rem;
     }
 
-    .portfolio-card-name p {
-        font-size: 9px;
+    .round {
+        left: 20px;
     }
+
+    .portfolio-card-cnt {
+        gap: 80px;
+    }
+
+
+    .portfolio-card-name p {
+        font-size: 10px;
+    }
+
+    .portfolio-card-name h4 {
+        font-size: 18px;
+    }
+
 }
 
 @media screen and (max-width:375px) {
-    .portfolio-card-name h4 {
-        font-size: 11px;
-    }
+
     .work-skill h1 {
         font-size: 1.6rem;
     }
 
-    .portfolio-card-name p {
-        font-size: 8px;
+    .round {
+        left: 0px;
     }
+
+    .portfolio-card-name h4 {
+        font-size: 16px;
+    }
+
+    .portfolio-card-cnt {
+        gap: 50px;
+    }
+
+}
+@media screen and (max-width:360px){
+    .contact {
+    flex-direction: column;
+    align-items: flex-start;
+}
 }
