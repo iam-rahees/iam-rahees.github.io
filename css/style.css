@@ -510,7 +510,7 @@ input.input {
 }
 
 .leave-msg a {
-    border: solid 1.5px #4C6380;
+    border: solid px #4C6380;
     color: #4C6380;
     padding: 12px 15px;
     border-radius: 3px;
